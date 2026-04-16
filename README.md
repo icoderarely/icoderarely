@@ -140,8 +140,7 @@ Concepts  │  REST APIs · DI · Repository Pattern · Migrations
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=icoderarely&bg_color=0d1117&color=00d4aa&line=00d4aa&point=ffffff&area=true&hide_border=true" />
 
-<img height="160" src="https://github-stats.as93.net/api?username=icoderarely&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4aa&icon_color=00d4aa&text_color=c9d1d9&count_private=true" />
-<img height="160" src="https://github-stats.as93.net/api/top-langs/?username=icoderarely&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=c9d1d9&langs_count=6" />
+
 
 
 </div>

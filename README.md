@@ -6,16 +6,6 @@
 <!-- Name & Title -->
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=38&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Navneet+%F0%9F%91%8B;Backend+Dev+(in+progress);Go+Enthusiast+%F0%9F%90%B9;Building+Real+Stuff+%F0%9F%94%A7" alt="Typing SVG" />
 
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  > Not just writing code — understanding WHY it's built     │
-│  > Learning by building production-style systems in Go      │
-│  > Focused on consistency over perfection ⭐                │
-└─────────────────────────────────────────────────────────────┘
-```
-
 </div>
 
 ---
@@ -41,7 +31,7 @@ func main() {
         Name:       "Navneet",
         Role:       "Backend Developer (in progress)",
         Status:     "Building, Breaking & Learning 🔧",
-        Language:   "Go (Golang) 🐹",
+        Language:   "Go (Golang), JavaScript, TypeScript, Python 🐹",
         Goal:       "Job-ready backend dev with real production practices",
         Philosophy: "Consistency > Perfection ⭐",
     }
@@ -53,62 +43,15 @@ func main() {
 
 ---
 
-## `~/whats-cooking` 🚧
-
-> Things I'm actively building and breaking right now
-
-| Area | What I'm Doing |
-|---|---|
-| 🔨 **REST APIs** | Building from scratch in Go |
-| 🏗️ **Architecture** | Learning proper project structuring |
-| 🗄️ **Repository Pattern** | Real-world implementation (not just theory) |
-| 🐘 **PostgreSQL** | Working with DB + migrations |
-| 💉 **DI** | Understanding dependency injection in Go |
-
----
-
-## `~/brain-dump` 🧠
-
-Things I'm going **deep** on:
-
-```
-┌──────────────────────────────────────────────┐
-│                                              │
-│  ◈  Interfaces & implicit implementation    │
-│  ◈  Clean architecture in Go                │
-│  ◈  Repository pattern (real-world)         │
-│  ◈  Configs, env, and app structuring       │
-│  ◈  Writing maintainable backend code       │
-│                                              │
-└──────────────────────────────────────────────┘
-```
-
----
-
 ## `~/tech-stack` ⚙️
 
-<div align="center">
-
-<!-- Language -->
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-<!-- Databases -->
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-
-<!-- Tools -->
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
 ```
-Language  │  Go (Golang), JS (JavaScript)
-Database  │  PostgreSQL · MariaDB
-Tools     │  Docker · Makefile · Migrate · godotenv · chi
-Concepts  │  REST APIs · DI · Repository Pattern · Migrations
+Core Languages  │ Go (Golang) · TypeScript · JavaScript · Python
+Backend         │ Go (chi · Gin) · Node.js · Express.js · REST APIs · JWT Auth · Zod Validation 
+Frontend        │ React.js · TanStack Router · TanStack Query · Zustand
+Databases       │ PostgreSQL · MariaDB · MongoDB · Redis
+DevOps & Tools  │ Docker · Makefile · Database Migrations
+Concepts        │ API Design · Authentication & Authorization · Design Patterns · Scalable Architecture
 ```
 
 ---
@@ -140,23 +83,7 @@ Concepts  │  REST APIs · DI · Repository Pattern · Migrations
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=icoderarely&bg_color=0d1117&color=00d4aa&line=00d4aa&point=ffffff&area=true&hide_border=true" />
 
-
-
-
 </div>
-
----
-
-## `~/daily-grind` 📈
-
-```
-What I'm sharpening every day:
-
-  [██████████░░] Writing clean, readable Go code
-  [████████░░░░] Understanding system design basics  
-  [███████░░░░░] Debugging real issues (not theory)
-  [██████████░░] Building things that actually work
-```
 
 ---
 
@@ -168,18 +95,6 @@ What I'm sharpening every day:
 
 </div>
 
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║   Not chasing perfection.  Just showing up daily.   ║
-║                  ⭐ Consistency wins. ⭐              ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:00d4aa,100:0f0f0f&height=80&section=footer" />
 

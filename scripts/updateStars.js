@@ -14,12 +14,6 @@ const TEXT_EXTENSIONS = new Set([
   ".yaml",
   ".yml",
   ".html",
-  ".js",
-  ".ts",
-  ".tsx",
-  ".jsx",
-  ".css",
-  ".scss",
 ]);
 
 function formatStars(num) {
@@ -85,13 +79,31 @@ async function fetchStarsGraphQL(repos) {
     }
 
     const payload = await response.json();
-    if (payload.errors?.length) {
-      const messages = payload.errors.map((err) => err.message).join(" | ");
-      throw new Error(`GitHub GraphQL returned errors: ${messages}`);
+    const aliasSet = new Set(aliases.map(({ alias }) => alias));
+    const aliasErrors = new Map();
+    const nonAliasErrors = [];
+
+    for (const err of payload.errors || []) {
+      const errorAlias = Array.isArray(err.path) ? err.path[0] : null;
+      if (typeof errorAlias === "string" && aliasSet.has(errorAlias)) {
+        aliasErrors.set(errorAlias, err.message || "Unknown repository error");
+      } else {
+        nonAliasErrors.push(err.message || "Unknown GraphQL error");
+      }
+    }
+
+    if (nonAliasErrors.length > 0) {
+      throw new Error(
+        `GitHub GraphQL returned non-repository errors: ${nonAliasErrors.join(" | ")}`,
+      );
     }
 
     for (const { repo, alias } of aliases) {
       const node = payload.data?.[alias];
+      if (aliasErrors.has(alias)) {
+        console.warn(`Skipped ${repo}: ${aliasErrors.get(alias)}`);
+        continue;
+      }
       if (!node || typeof node.stargazerCount !== "number") {
         // Keep unresolved repos out of replacement and log in caller.
         continue;
@@ -163,10 +175,10 @@ async function main() {
 
   const unresolvedRepos = repos.filter((repo) => !starsByRepo.has(repo));
   if (unresolvedRepos.length > 0) {
-    console.error("Could not resolve these repositories:");
+    console.warn("Could not resolve these repositories:");
     for (const repo of unresolvedRepos) {
       const inFiles = Array.from(reposToFiles.get(repo) || []).join(", ");
-      console.error(`- ${repo} (seen in: ${inFiles})`);
+      console.warn(`- ${repo} (seen in: ${inFiles})`);
     }
   }
 
@@ -192,7 +204,10 @@ async function main() {
     console.log(`Updated ${changedFiles} file(s).`);
   }
 
-  if (unresolvedRepos.length > 0) {
+  if (
+    unresolvedRepos.length > 0 &&
+    process.env.FAIL_ON_UNRESOLVED_REPOS === "true"
+  ) {
     process.exitCode = 1;
   }
 }

@@ -2,6 +2,7 @@
 
 ```
  ◈ Contributing to the community
+   Real-time-ish stars, refreshed every 12h by GitHub Actions.
 ```
 
 **🔹 developer-roadmap** · ⭐ 353.7k <!--stars:nilbuild/developer-roadmap--> · [`nilbuild`](https://github.com/nilbuild/developer-roadmap)

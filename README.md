@@ -5,7 +5,7 @@
    Real-time-ish stars, refreshed every 12h by GitHub Actions.
 ```
 
-**🔹 developer-roadmap** · ⭐ 354k <!--stars:nilbuild/developer-roadmap--> · [`nilbuild`](https://github.com/nilbuild/developer-roadmap)
+**🔹 developer-roadmap** · ⭐ 354.1k <!--stars:nilbuild/developer-roadmap--> · [`nilbuild`](https://github.com/nilbuild/developer-roadmap)
 > [Fix color mismatch between legend and roadmap sections](https://github.com/nilbuild/developer-roadmap/pull/7729) — Improved visual consistency across UI components.
 
 ---

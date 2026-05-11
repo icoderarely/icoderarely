@@ -6,7 +6,7 @@ Contributing to the community
 **🔹 [meshery-extensions/shape-builder](https://github.com/meshery-extensions/shape-builder)** · ⭐ 35 <!--stars:meshery-extensions/shape-builder-->
 > [Fix polygon creation: require minimum 3 points](https://github.com/meshery-extensions/shape-builder/pull/170) — Improved polygon creation validation to prevent invalid shapes with insufficient anchor points.
 
-**🔹 [layer5io/sistent](https://github.com/layer5io/sistent)** · ⭐ 119 <!--stars:layer5io/sistent-->
+**🔹 [layer5io/sistent](https://github.com/layer5io/sistent)** · ⭐ 118 <!--stars:layer5io/sistent-->
 > [feat: Add BrushIcon to Icon Collection](https://github.com/layer5io/sistent/pull/1502) — Expanded the icon collection with a new BrushIcon, enhancing design system flexibility.
 
 **🔹 [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** · ⭐ 354.5k <!--stars:nilbuild/developer-roadmap-->

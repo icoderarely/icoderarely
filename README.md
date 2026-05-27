@@ -12,7 +12,7 @@ Contributing to the community
 **🔹 [layer5io/sistent](https://github.com/layer5io/sistent)** · ⭐ 119 <!--stars:layer5io/sistent-->
 > [feat: Add BrushIcon to Icon Collection](https://github.com/layer5io/sistent/pull/1502) — Expanded the icon collection with a new BrushIcon, enhancing design system flexibility.
 
-**🔹 [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** · ⭐ 355.5k <!--stars:nilbuild/developer-roadmap-->
+**🔹 [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** · ⭐ 355.6k <!--stars:nilbuild/developer-roadmap-->
 > [Fix color mismatch between legend and roadmap sections](https://github.com/nilbuild/developer-roadmap/pull/7729) — Improved visual consistency across UI components.
 
 ---

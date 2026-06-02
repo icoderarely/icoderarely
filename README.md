@@ -3,7 +3,7 @@
 ```
 Contributing to the community
 ```
-**🔹 [meshery/meshery.io](https://github.com/meshery/meshery.io)** · ⭐ 755 <!--stars:meshery/meshery.io-->
+**🔹 [meshery/meshery.io](https://github.com/meshery/meshery.io)** · ⭐ 756 <!--stars:meshery/meshery.io-->
 > [Fix heading color inconsistency on Getting Started page](https://github.com/meshery/meshery.io/pull/2669) — Fixed heading color inconsistency on text styling to support light/dark mode themes.
 
 **🔹 [meshery-extensions/shape-builder](https://github.com/meshery-extensions/shape-builder)** · ⭐ 35 <!--stars:meshery-extensions/shape-builder-->

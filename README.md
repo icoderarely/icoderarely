@@ -12,10 +12,10 @@ Contributing to the community
 **🔹 [meshery-extensions/shape-builder](https://github.com/meshery-extensions/shape-builder)** · ⭐ 35 <!--stars:meshery-extensions/shape-builder-->
 > [Fix polygon creation: require minimum 3 points](https://github.com/meshery-extensions/shape-builder/pull/170) — Improved polygon creation validation to prevent invalid shapes with insufficient anchor points.
 
-**🔹 [layer5io/sistent](https://github.com/layer5io/sistent)** · ⭐ 123 <!--stars:layer5io/sistent-->
+**🔹 [layer5io/sistent](https://github.com/layer5io/sistent)** · ⭐ 124 <!--stars:layer5io/sistent-->
 > [feat: Add BrushIcon to Icon Collection](https://github.com/layer5io/sistent/pull/1502) — Expanded the icon collection with a new BrushIcon, enhancing design system flexibility.
 
-**🔹 [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** · ⭐ 359.4k <!--stars:nilbuild/developer-roadmap-->
+**🔹 [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)** · ⭐ 359.5k <!--stars:nilbuild/developer-roadmap-->
 > [Fix color mismatch between legend and roadmap sections](https://github.com/nilbuild/developer-roadmap/pull/7729) — Improved visual consistency across UI components.
 
 ---

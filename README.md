@@ -6,7 +6,7 @@ Contributing to the community
 **🔹 [layer5io/docs](https://github.com/layer5io/docs)** · ⭐ 99 <!--stars:layer5io/docs-->
 > [fix(videos): remove hardcoded min suffix from durations](https://github.com/layer5io/docs/pull/) — Fixed video duration rendering by removing the hardcoded `min` suffix, ensuring durations in `MM:SS` format (e.g., `0:16`) display correctly and consistently across video landing pages.
 > 
-**🔹 [meshery/meshery.io](https://github.com/meshery/meshery.io)** · ⭐ 847 <!--stars:meshery/meshery.io-->
+**🔹 [meshery/meshery.io](https://github.com/meshery/meshery.io)** · ⭐ 849 <!--stars:meshery/meshery.io-->
 > [Fix heading color inconsistency on Getting Started page](https://github.com/meshery/meshery.io/pull/2669) — Fixed heading color inconsistency on text styling to support light/dark mode themes.
 
 **🔹 [meshery-extensions/shape-builder](https://github.com/meshery-extensions/shape-builder)** · ⭐ 35 <!--stars:meshery-extensions/shape-builder-->
